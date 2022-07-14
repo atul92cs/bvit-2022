@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript First Chapter</title>
+</head>
+<body>
+    <h1>
+      This is first heading
+    </h1>
+    <h2 class="sub-heading">
+
+    </h2>
+    <h3 id="paragraph-heading">
+
+    </h3>
+    <script>
+        let mainheading=document.getElementsByTagName('h1');
+        console.log(mainheading);
+        mainheading[0].style.color='blue';
+        let subheading=document.getElementsByClassName('sub-heading');
+        subheading[0].textContent='This is the subheading';
+        let pheading=document.getElementById('paragraph-heading');
+        pheading.innerHTML='<strong>Paragraph Heading</strong>'
+    </script>
+</body>
+</html>

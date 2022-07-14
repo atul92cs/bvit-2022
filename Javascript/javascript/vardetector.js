@@ -1,0 +1,15 @@
+console.log(typeof(o));
+console.log(typeof(k));
+let len=o.length;
+let subs=o.substring(0,15);
+console.log(len);
+console.log(subs);
+let z='THIS IS AN EXCEPTION';
+z=z.toLowerCase();
+console.log(z);
+z=z.toUpperCase();
+console.log(z);
+l=z.split('');
+console.log(l);
+l=z.split(' ');
+console.log(l);

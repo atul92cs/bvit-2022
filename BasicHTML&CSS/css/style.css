@@ -1,0 +1,60 @@
+.menu{
+    background-color: black;
+    color: white;
+    margin-top: 0vh !important;
+}
+.menu-bar{
+  list-style: none;
+  
+}
+.menu-bar li {
+    display: inline-block;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 2.5vw;
+}
+.image-section img{
+    height: 45vh;
+    width: 35vw;
+    margin-right: 30vw;
+    margin-left: 30vw;
+
+}
+.content-section p{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: left;
+}
+.content-section h1{
+    text-align: center;
+    padding:2.5vh 0.5vw 2.5vh 0.5vw;
+}
+.image-section span{
+    display: inline;  
+}
+.form-section{
+    margin-left: 40vw;
+    margin-right: 40vw;
+    text-align: center;
+}
+.form-section input{
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+    height: 5vh;
+    width: 13.5vw;
+    font-size: 2vh;
+    border-radius: 0.5vh;
+}
+.cast-section h3
+{
+    text-align: center;
+}
+.char-list{
+    margin:0.5vh 45vw 0.5vh 45vw;
+}
+.char-list li {
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
