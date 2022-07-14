@@ -16,6 +16,16 @@
     <h3 id="paragraph-heading">
 
     </h3>
+    <h4 class="web-heading" id="common-head">
+
+    </h4>
+    <ul class="list">
+       <li class="listel">red</li> 
+       <li class="listel">blue</li> 
+       <li class="listel">green</li> 
+       <li class="listel">black</li> 
+    
+    </ul>
     <script>
         let mainheading=document.getElementsByTagName('h1');
         console.log(mainheading);
@@ -24,6 +34,16 @@
         subheading[0].textContent='This is the subheading';
         let pheading=document.getElementById('paragraph-heading');
         pheading.innerHTML='<strong>Paragraph Heading</strong>'
+        let secondheading=document.querySelector('h4');
+        secondheading.innerHTML='This is another heading';
+        let second=document.querySelector('.web-heading');
+        second.style.color='red';
+        let secondh=document.querySelector('#common-head');
+        secondh.style.textTransform='uppercase';
+        let listel=document.querySelectorAll('.listel:nth-child(even)');
+        listel.forEach(liste=>{
+            liste.style.backgroundColor='blue';
+        });
     </script>
 </body>
 </html>
